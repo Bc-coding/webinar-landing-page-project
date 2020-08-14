@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/02c7cfc675.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Webinar Landing Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header>
+        <!-- navbar -->
+        <nav id="nav" class="nav nav-transparent">
+          <!-- nav header -->
+          <div class="nav-logo">
+            <!-- <img src="./logo/svg" alt="logo" class="logo" /> -->
+            <p class="logo-text">{ webinar }</p>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#gallery" class="scroll-link">gallery</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="section section-head">
+        <article class="head-top">
+          <div class="head-title">
+            <div class="head-title-info">
+              <p>When: <span class="webinar-date-top"> 24 Aug, 2020</span></p>
+              <p>Hour: <span> 11:00 AM</span></p>
+              <h2>your webinar video title</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reprehenderit quae animi, nisi consequuntur reiciendis deserunt.
+              </p>
+              <p class="webinar-date">
+                come and join us:
+              </p>
+            </div>
+            <p>Webinar starts in:</p>
+            <div class="head-deadline">
+              <!-- days -->
+              <div class="deadline-format">
+                <div class="deadline-format-center">
+                  <h4 class="days">25</h4>
+                  <span>Days</span>
+                </div>
+              </div>
+              <!-- hours -->
+              <div class="deadline-format">
+                <div class="deadline-format-center">
+                  <h4 class="hours">08</h4>
+                  <span>Hours</span>
+                </div>
+              </div>
+              <!-- minutes -->
+              <div class="deadline-format">
+                <div class="deadline-format-center">
+                  <h4 class="mins">33</h4>
+                  <span>Minutes</span>
+                </div>
+              </div>
+              <!-- seconds -->
+              <div class="deadline-format">
+                <div class="deadline-format-center">
+                  <h4 class="secs">45</h4>
+                  <span>Seconds</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="head-register">
+            <img src="img-learn.jpg" alt="" />
+            <form class="register-form" action="send" method="POST">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="name" required />
+              <label for="email">Email Adress</label>
+              <input type="email" id="email" placeholder="email" required />
+              <input
+                type="submit"
+                id="submit"
+                class="submit"
+                value="register now"
+              />
+            </form>
+          </div>
+        </article>
+        <article class="head-bottom">
+          <div class="benefit-title">
+            <h3>What will you learn?</h3>
+          </div>
+          <div class="benefit-group">
+            <div class="benefit-item benefit-item-1">
+              <span><i class="far fa-lightbulb"></i></span>
+              <h5>Benefit 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, aut?
+              </p>
+            </div>
+            <div class="benefit-item benefit-item-2">
+              <span><i class="far fa-lightbulb"></i></span>
+              <h5>Benefit 2</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, aut?
+              </p>
+            </div>
+            <div class="benefit-item benefit-item-3">
+              <span><i class="far fa-lightbulb"></i></span>
+              <h5>Benefit 3</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, aut?
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="section section-schedule">
+        <div class="section-schedule-wrapper">
+          <article class="schedule-des">
+            <h3>Webinar Schedule</h3>
+            <p>Add a short description to summarise your webinar's schedule</p>
+            <p>
+              Provide an overview of the webinar's structure so participants
+              gain an in-depth understanding of your event.
+            </p>
+            <button class="submit" type="submit">Register now</button>
+            <p>Webinar starts in:</p>
+            <div class="head-deadline">
+              <!-- days -->
+              <div class="deadline-format">
+                <div class="deadline-format-center-two">
+                  <h4 class="days">25</h4>
+                  <span>Days</span>
+                </div>
+              </div>
+              <!-- hours -->
+              <div class="deadline-format">
+                <div class="deadline-format-center-two">
+                  <h4 class="hours">08</h4>
+                  <span>Hours</span>
+                </div>
+              </div>
+              <!-- minutes -->
+              <div class="deadline-format">
+                <div class="deadline-format-center-two">
+                  <h4 class="mins">33</h4>
+                  <span>Minutes</span>
+                </div>
+              </div>
+              <!-- seconds -->
+              <div class="deadline-format">
+                <div class="deadline-format-center-two">
+                  <h4 class="secs">45</h4>
+                  <span>Seconds</span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="schedule-breakdown">
+            <div class="schedule-breakdown-container">
+              <ul class="timeline">
+                <li class="intro">introduction</li>
+                <li class="topic-one">topic one</li>
+                <li class="shortbreak">short break</li>
+                <li class="topic-two">topic two</li>
+                <li class="QandA">Q&A session</li>
+                <li class="webinar-ends">webinar ends</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section section-speakers">
+        <div class="section-speakers-wrapper">
+          <h3>Webinar Speakers</h3>
+          <article class="speakers-wrapper">
+            <div class="speakers-item">
+              <span><i class="fas fa-images"></i></span>
+              <h4>Katrina Smith</h4>
+              <p>Product Manager</p>
+              <p>
+                Add a short description about the speaker's exerptise in this
+                area
+              </p>
+            </div>
+            <div class="speakers-item">
+              <span><i class="fas fa-images"></i></span>
+              <h4>Katrina Smith</h4>
+              <p>Product Manager</p>
+              <p>
+                Add a short description about the speaker's exerptise in this
+                area
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="section section-register">
+        <article class="register-wrapper">
+          <h3>Register Today!</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+            ipsum ab impedit assumenda, molestias optio id libero. Praesentium,
+            consequatur ea.
+          </p>
+          <button class="submit" type="submit">Register now</button>
+        </article>
+      </section>
+      <footer>
+        <p>copyright by { webinar }</p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
